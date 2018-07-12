@@ -2,7 +2,7 @@ function randomNumber () {
     const deci = Math.random();
     const decimal = deci + Math.random();
     const times10 = decimal * 10
-    const final = Math.floor (times10)
+    const final = Math.ceil (times10)
     console.log (final)
 }
 
